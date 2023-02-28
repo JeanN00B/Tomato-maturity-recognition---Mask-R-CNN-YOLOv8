@@ -1,0 +1,6 @@
+ultralytics.egg-info/PKG-INFO
+ultralytics.egg-info/SOURCES.txt
+ultralytics.egg-info/dependency_links.txt
+ultralytics.egg-info/entry_points.txt
+ultralytics.egg-info/requires.txt
+ultralytics.egg-info/top_level.txt

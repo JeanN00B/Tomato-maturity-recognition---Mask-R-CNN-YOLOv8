@@ -1,0 +1,14 @@
+names:
+- b_fully_ripened
+- b_green
+- b_half_ripened
+nc: 3
+roboflow:
+  license: Public Domain
+  project: big_tomatoes_dataset-quttg
+  url: https://universe.roboflow.com/yachaythesisii/big_tomatoes_dataset-quttg/dataset/2
+  version: 2
+  workspace: yachaythesisii
+test: test/images
+train: train/images
+val: valid/images
