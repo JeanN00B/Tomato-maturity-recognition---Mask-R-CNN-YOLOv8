@@ -34,13 +34,13 @@ The repository is divided into:
  To work with this repo, it recommendable to do this in google colab. Download the Tomato-Dataset folder and upload to your own drive 
  directory, or only by cloning the repo.
  
-´´´
+```
 #clone on google colab
 !git clone https://github.com/JeanN00B/Tomato-maturity-recognition---Mask-R-CNN-YOLOv8.git
 
 #normal clone on your pc
 git clone https://github.com/JeanN00B/Tomato-maturity-recognition---Mask-R-CNN-YOLOv8.git
-´´´
+```
 
 ## Results
 
