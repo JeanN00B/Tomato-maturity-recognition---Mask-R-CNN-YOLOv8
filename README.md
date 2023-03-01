@@ -9,14 +9,9 @@ Original Mask R-CNN repo from MMdetection [here](https://github.com/open-mmlab/m
 Original tomato dataset repo [here](https://github.com/laboroai/LaboroTomato)
 
 
-Tomato detection and classification is an important task that big farms might have, where manual harvest is not scalable, 
-and automatic machine harvesting may not be accurate. Some works in the precision agriculture field propose a color-based 
-maturity detection technique or machine learning techniques; however, these methodologies have low accuracy. Even the use of some 
-image classifier architecture has become popular. However, these models need large datasets and training times, and the accuracy may remain low. 
-Also, one of the main challenges to achieving this task is to get a suitable dataset containing high-quality images and annotations and adequate for 
-the correct architecture.
-This work explores the segmentation and detection of tomatoes in different maturity states for harvesting prediction 
-by using the laboro tomato dataset to train a mask R-CNN and a YOLOv8 architecture. 
+This work explores the segmentation and detection of tomatoes in different maturity states for harvesting prediction by using the laboro tomato dataset to train a mask R-CNN and a YOLOv8 architecture. The laboro tomato dataset contains two tomato classes, normal and cherry, and it detects three ripeness states, ripe, half-ripe, and green, but only the normal class will be used. This work aims to test a state-of-the-art model to compare the results against the mask R-CNN architecture proposed on the benchmark paper \cite{FawziaRahim2021}. The evaluation metric intersection over union (IoU) 0.5 showed an average precision of 67.2\% with a recall of 78.9\% over the laboro tomato dataset and an IoU average precision of 92.1\% with a recall of 91.4\% over the same dataset once data augmentation was performed and generated synthetic images with a proposed algorithm. Nevertheless, this work will focus on improving the detection over the original dataset, where the benchmark paper author's do this in a separate process by color analysis algorithms, and uses $R^{2}$ for how accurately the tomato was set into the three maturity classes.
+
+The results are that the state-of-the-art YOLOv8, having a $R^2$ of 0.809, 0.897, and 0.968 in the ripe, half-ripe and green categories respectively. However the Mask R-CNN results are acceptable, with a 0.819, 0.809, and 0.893 in the ripe, half-ripe and green categories respectively. YOLOv8 model performed better than the one used in the benchmark paper by detecting and segmenting the tomatoes, as well as classifying them. And the color-analysis technique used in the benchmark paper is considered inefficient, because the classification results showed that there is not even a linear relation between the predictions and the real values.
 
 
 ## Repo description
