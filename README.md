@@ -41,6 +41,8 @@ git clone https://github.com/JeanN00B/Tomato-maturity-recognition---Mask-R-CNN-Y
 
 ## Results
 
+Images from the original dataset, the predicted with YOLOv8, and Mask R-CNN from left to right respectively.
+
 <img src="https://github.com/JeanN00B/Tomato-maturity-recognition---Mask-R-CNN-YOLOv8/blob/main/Color%20analysis/Results/YOLO-green.jpg" width="30%"></img>
 <img src="https://github.com/JeanN00B/Tomato-maturity-recognition---Mask-R-CNN-YOLOv8/blob/main/Color%20analysis/Results/YOLO-half-ripened.jpg" width="30%"></img>
 <img src="https://github.com/JeanN00B/Tomato-maturity-recognition---Mask-R-CNN-YOLOv8/blob/main/Color%20analysis/Results/YOLO-fully-ripened.jpg" width="30%"></img>
