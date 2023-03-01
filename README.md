@@ -28,6 +28,8 @@ The repository is divided into:
  
  To work with this repo, it recommendable to do this in google colab. Download the Tomato-Dataset folder and upload to your own drive 
  directory, or only by cloning the repo.
+
+**Important:** While executing the colab notebooks an the python scripts as well, it is mandatory to change the directions from the directories to match to the location of the respective required files. The notebooks contains more information about how to use them, but basically it is needed to execute all the cells and get the results.
  
 ```
 #clone on google colab
