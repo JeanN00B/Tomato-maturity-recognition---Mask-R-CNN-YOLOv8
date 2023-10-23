@@ -1,6 +1,6 @@
 # Mask-R-CNN and YOLOv8 comparison to perform maturity recognition task
 
-See the related paper to this code [here](https://www.overleaf.com/read/qkczrvzzkwnt)
+See the related paper to this code [here](http://dx.doi.org/10.1007/978-3-031-45438-7_26)
 
 Original YOLOv8 repo from ultralytics [here](https://github.com/ultralytics/ultralytics)
 
